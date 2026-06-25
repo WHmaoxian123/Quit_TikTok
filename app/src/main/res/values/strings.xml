@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Quit TikTok</string>
+    <string name="accessibility_service_description">防沉迷系统监控服务，用于检测目标应用（抖音）的开启和切换状态。当使用时长超限时，将自动启动锁定界面进行拦截。</string>
+</resources>

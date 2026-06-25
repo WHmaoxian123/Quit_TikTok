@@ -1,0 +1,19 @@
+# IDE 与本地配置
+.idea/
+.gradle/
+local.properties
+*.iml
+
+# 编译与打包生成的文件
+build/
+app/build/
+*.apk
+*.aab
+
+# 日志与临时文件
+*.log
+debug.log
+temp_gradle/
+
+# 压缩包 (拦截那个巨大的 zip)
+*.zip

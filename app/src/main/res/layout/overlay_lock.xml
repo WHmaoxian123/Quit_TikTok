@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/lock_type_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单次会话已达上限"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/countdown_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="01:00:00"
+        android:textSize="72sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_marginBottom="48dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <Button
+            android:id="@+id/task_a_button"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="动量\n重置"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
+            android:layout_marginRight="24dp"
+            android:visibility="visible"/>
+
+        <Button
+            android:id="@+id/task_b_button"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="冥想\n缓冲"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+
+</LinearLayout>
